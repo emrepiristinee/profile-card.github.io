@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Red+Hat+Display:wght@700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+:root{   
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+main{
+    height: 98vh;
+    display: flex;
+    background-color: #19A1AD;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    position: absolute;
+    bottom: 250px;
+    right: 775px;
+}
+.bottom{
+    position: absolute;
+    top: 350px;
+    left: 800px;
+}
+.card{
+    width: 350px;
+    height: 380px;
+    background-color: #fff;
+    border-radius: 1em;
+    position: relative;
+}
+.card .back-images img{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.card .avatar{
+    position: absolute;
+    left: 121px;
+    top: 90px;
+    border-radius: 96px;
+    border: 5px solid #fff;
+}
+.card h2{
+    color: var(--Very-dark-desaturated-blue);
+    margin: 70px 0px 0px 110px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.card span{
+    color: var(--Dark-gray);
+    padding: 10px;
+    font-size: 18px;
+}
+.card .city{
+    font-size: 15px;
+    color: var(--Dark-gray);
+    font-weight: 700;
+    margin: 10px 0px 0px 140px;
+    font-size: 18px;
+}
+.numberdata{
+    margin-top: 25px;
+    border-top: 1px solid var(--Dark-gray);
+}
+.numberdata{
+    display: flex;
+}
+.numberdata .p1{
+    font-size: 18px;
+    font-weight: 700;
+}
+.numberdata .p2{
+    color: var(--Dark-gray);
+}
+.numberdata .followers .p1{
+    margin: 25px 0 0 50px;
+}
+.numberdata .followers .p2{
+    margin: 5px 0 0 30px;
+}
+.numberdata .likes .p1{
+    margin: 25px 0 0 60px;
+}
+.numberdata .likes .p2{
+    margin: 5px 0 0 60px;
+}
+.numberdata .photos .p1{
+    margin: 25px 0 0 70px;
+}
+.numberdata .photos .p2{
+    margin: 5px 0 0 60px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
